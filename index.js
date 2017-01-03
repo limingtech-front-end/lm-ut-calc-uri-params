@@ -1,4 +1,4 @@
-import checkDataType from 'ut-check-data-type'
+import checkDataType from 'lm-ut-check-data-type'
 
 let isObject=checkDataType.isObject,
     isString=checkDataType.isString

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/limingtech-front-end/lm-ut-calc-uri-params/issues"
   },
-  "homepage": "https://github.com/limingtech-front-end/lm-ut-calc-uri-params#readme"
+  "homepage": "https://github.com/limingtech-front-end/lm-ut-calc-uri-params#readme",
+  "dependencies": {
+    "lm-ut-check-data-type": "git+https://github.com/limingtech-front-end/lm-ut-check-data-type.git"
+  }
 }
