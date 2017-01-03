@@ -1,0 +1,19 @@
+{
+  "name": "lm-ut-calc-uri-params",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git"
+  },
+  "author": "littlstonee <littlstonee@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/limingtech-front-end/lm-ut-calc-uri-params/issues"
+  },
+  "homepage": "https://github.com/limingtech-front-end/lm-ut-calc-uri-params#readme"
+}
