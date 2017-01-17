@@ -1,22 +1,82 @@
 {
-  "name": "lm-ut-calc-uri-params",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      {
+        "raw": "lm-ut-calc-uri-params@git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
+        "scope": null,
+        "escapedName": "lm-ut-calc-uri-params",
+        "name": "lm-ut-calc-uri-params",
+        "rawSpec": "git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
+        "spec": "git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:limingtech-front-end/lm-ut-calc-uri-params.git",
+          "sshUrl": "git+ssh://git@github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
+          "httpsUrl": "git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
+          "gitUrl": "git://github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
+          "shortcut": "github:limingtech-front-end/lm-ut-calc-uri-params",
+          "directUrl": "https://raw.githubusercontent.com/limingtech-front-end/lm-ut-calc-uri-params/master/package.json"
+        }
+      },
+      "D:\\Projects\\vsa\\node_modules\\lm-se-client-info"
+    ]
+  ],
+  "_from": "git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
+  "_id": "lm-ut-calc-uri-params@1.0.0",
+  "_inCache": true,
+  "_location": "/lm-ut-calc-uri-params",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "lm-ut-calc-uri-params@git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
+    "scope": null,
+    "escapedName": "lm-ut-calc-uri-params",
+    "name": "lm-ut-calc-uri-params",
+    "rawSpec": "git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
+    "spec": "git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:limingtech-front-end/lm-ut-calc-uri-params.git",
+      "sshUrl": "git+ssh://git@github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
+      "httpsUrl": "git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
+      "gitUrl": "git://github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
+      "shortcut": "github:limingtech-front-end/lm-ut-calc-uri-params",
+      "directUrl": "https://raw.githubusercontent.com/limingtech-front-end/lm-ut-calc-uri-params/master/package.json"
+    }
   },
+  "_requiredBy": [
+    "/lm-se-client-info"
+  ],
+  "_resolved": "git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git#0e29aa95fb2356349eeaa2987e263852fc0e1944",
+  "_shasum": "55b6a24384688ec9e096b48f3070e8a1c7a378d4",
+  "_shrinkwrap": null,
+  "_spec": "lm-ut-calc-uri-params@git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
+  "_where": "D:\\Projects\\vsa\\node_modules\\lm-se-client-info",
+  "author": {
+    "name": "littlstonee",
+    "email": "littlstonee@hotmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/limingtech-front-end/lm-ut-calc-uri-params/issues"
+  },
+  "dependencies": {
+    "lm-ut-check-data-type": "git+https://github.com/limingtech-front-end/lm-ut-check-data-type.git"
+  },
+  "devDependencies": {},
+  "gitHead": "0e29aa95fb2356349eeaa2987e263852fc0e1944",
+  "homepage": "https://github.com/limingtech-front-end/lm-ut-calc-uri-params#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "lm-ut-calc-uri-params",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git"
   },
-  "author": "littlstonee <littlstonee@hotmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/limingtech-front-end/lm-ut-calc-uri-params/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/limingtech-front-end/lm-ut-calc-uri-params#readme",
-  "dependencies": {
-    "lm-ut-check-data-type": "git+https://github.com/limingtech-front-end/lm-ut-check-data-type.git"
-  }
+  "version": "1.0.0"
 }

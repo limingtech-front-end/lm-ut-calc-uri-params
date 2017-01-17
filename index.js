@@ -1,9 +1,9 @@
-import checkDataType from 'lm-ut-check-data-type'
+var checkDataType = require('lm-ut-check-data-type')
 
-let isObject=checkDataType.isObject,
+var isObject=checkDataType.isObject,
     isString=checkDataType.isString
 
-let defaultJoinMark = '&',
+var defaultJoinMark = '&',
     defaultSetValueMark = '='
 
 function getParams(str, joinMark, setValueMark) {
@@ -40,14 +40,14 @@ function getCleanQuery() {
     return location.search.replace('?', '')
 }
 
-export default {
-    	getUriQuery() {
+module.exports= {
+    	getUriQuery:function() {
             return getParams(getCleanQuery(), defaultJoinMark, defaultSetValueMark)
         },
-        getUriHash() {
+        getUriHash:function() {
             return getParams(getCleanHash(), defaultJoinMark, defaultSetValueMark)
         },
-        getCustom(options) { 
+        getCustom:function(options) { 
             isObject.validate(options)
             isString.validate(options.fullStr)
             isString.validate(options.startPoint)
@@ -55,15 +55,15 @@ export default {
             isString.validate(options.setValueMark)
             return getParams(options.fullStr.split(options.startPoint)[1], options.joinMark, options.setValueMark)
         },
-        addUriQuery(options) {
+        addUriQuery:function(options) {
             isObject.validate(options)
             return setParams(getCleanQuery(), defaultJoinMark, defaultSetValueMark, options)
         },
-        addUriHash(options) {
+        addUriHash:function(options) {
             isObject.validate(options)
             return setParams(getCleanHash(), defaultJoinMark, defaultSetValueMark, options)
         },
-        addCustom(options) {
+        addCustom:function(options) {
             isObject.validate(options)
             isString.validate(options.fullStr)
             isString.validate(options.startPoint)
