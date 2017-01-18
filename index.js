@@ -1,23 +1,22 @@
 var checkDataType = require('lm-ut-check-data-type')
-
 var isObject=checkDataType.isObject,
     isString=checkDataType.isString
-
 var defaultJoinMark = '&',
     defaultSetValueMark = '='
 
 function getParams(str, joinMark, setValueMark) {
     var dataObj = {},
         splitedStrArr = str.split(joinMark)
-    splitedStrArr.forEach((splitedStr) => {
-        let splitedKeyAndValue = splitedStr.split(setValueMark)
+
+    splitedStrArr.forEach(function(splitedStr){
+        var splitedKeyAndValue = splitedStr.split(setValueMark)
         dataObj[splitedKeyAndValue[0]] = splitedKeyAndValue[1]
     })
+
     return dataObj;
 }
-
 function setParams(str, joinMark, setValueMark, options) {
-    let key = '',
+    var key = '',
         valueStr = '',
         searchPosition
     for (key in options) {
@@ -39,7 +38,6 @@ function getCleanHash() {
 function getCleanQuery() {
     return location.search.replace('?', '')
 }
-
 module.exports= {
     	getUriQuery:function() {
             return getParams(getCleanQuery(), defaultJoinMark, defaultSetValueMark)

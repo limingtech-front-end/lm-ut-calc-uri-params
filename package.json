@@ -20,6 +20,27 @@
         }
       },
       "D:\\Projects\\vsa\\node_modules\\lm-se-client-info"
+    ],
+    [
+      {
+        "raw": "lm-ut-calc-uri-params@git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
+        "scope": null,
+        "escapedName": "lm-ut-calc-uri-params",
+        "name": "lm-ut-calc-uri-params",
+        "rawSpec": "git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
+        "spec": "git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:limingtech-front-end/lm-ut-calc-uri-params.git",
+          "sshUrl": "git+ssh://git@github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
+          "httpsUrl": "git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
+          "gitUrl": "git://github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
+          "shortcut": "github:limingtech-front-end/lm-ut-calc-uri-params",
+          "directUrl": "https://raw.githubusercontent.com/limingtech-front-end/lm-ut-calc-uri-params/master/package.json"
+        }
+      },
+      "D:\\Tests\\nativehybrid\\mail-icar\\node_modules\\lm-se-client-info"
     ]
   ],
   "_from": "git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
@@ -48,11 +69,11 @@
   "_requiredBy": [
     "/lm-se-client-info"
   ],
-  "_resolved": "git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git#0e29aa95fb2356349eeaa2987e263852fc0e1944",
-  "_shasum": "55b6a24384688ec9e096b48f3070e8a1c7a378d4",
+  "_resolved": "git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git#1bbe4564cb002598ae393074ccb01c3e2436a79a",
+  "_shasum": "24d981892bc415a8f4d1f8fbfe34732210034421",
   "_shrinkwrap": null,
   "_spec": "lm-ut-calc-uri-params@git+https://github.com/limingtech-front-end/lm-ut-calc-uri-params.git",
-  "_where": "D:\\Projects\\vsa\\node_modules\\lm-se-client-info",
+  "_where": "D:\\Tests\\nativehybrid\\mail-icar\\node_modules\\lm-se-client-info",
   "author": {
     "name": "littlstonee",
     "email": "littlstonee@hotmail.com"
